@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /*
- * main - Print a random number and say wether
- *       it is positive, zero or negative.
+ * main - Prints a random number and say wether
+ *        it is positive, zero or negative.
  *
  * Return : Always 0
 */
