@@ -6,7 +6,7 @@
  * main - print a random number and say wether
  *       it is positive, zero or negative.
  *
- * return - Always 0
+ * Return - Always 0
  */
 
 int main(void)
