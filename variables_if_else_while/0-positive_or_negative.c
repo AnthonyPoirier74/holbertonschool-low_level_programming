@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /*
- * main - Prints a random number and say wether
+ * main - Prints a random number and indicates wether
  *        it is positive, zero or negative.
  *
  * Return: Always 0.
