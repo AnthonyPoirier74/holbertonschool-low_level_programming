@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - texto
+ * main - Entry point
  *
- * Return: text in printf
+ * Return: Alwais 0 (Succes)
  */
 
 int main(void)
