@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /*
- *main - print a random number and say wether
+ * main - print a random number and say wether
  *       it is positive, zero or negative.
  *
- *return - Always 0
+ * return - Always 0
  */
 
 int main(void)
