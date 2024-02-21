@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- *main - Prints last digital number of a randomly generated number
- *        and indicates it is grather than 5, equal to 0 or less than 6.
- *
- * Return: Always 0.
- */
+*main - Prints last digital number of a randomly generated number
+*        and indicates it is grather than 5, equal to 0 or less than 6.
+*
+* Return: Always 0.
+*/
 int main(void)
 {
 	int n;
