@@ -1,11 +1,10 @@
 #include <stdio.h>
-
 /**
-* main - Print the alphabet in lowercase,
-* in uppercase,  followed by a newline.
+* Description: Print the alphabet in lower case,
+* then in uppercase, each followed by a new line.
 * Only allowed to use putchar three times.
 *
-* Return: Always 0 (Success)
+* Return: Always 0 (Succes)
 */
 int main(void)
 {
@@ -13,13 +12,12 @@ int main(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		if (c != 'q' && c != 'e')
-		{
-			putchar(c);
-		}
+		putchar(c);
 	}
-
+	for (c = 'A'; c <= 'Z'; c++)
+	{
+		putchar(c);
+	}
 	putchar('\n');
-
 	return (0);
 }
