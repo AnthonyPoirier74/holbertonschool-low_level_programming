@@ -1,11 +1,6 @@
-#ifndef ZERO
-#define ZERO
+#ifndef MAIN_H
+#define MAIN_H
 
-/**
-*  _putchar - Fonction for print a single character
-*             on standard output.
-*/
-
-int _putchar(void)
+int _putchar(char a);
 
 #endif
