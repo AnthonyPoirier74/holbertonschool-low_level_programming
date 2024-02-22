@@ -1,4 +1,4 @@
-#include "zero.h"
+#include "main.h"
 /**
  *  _putchar - Fonction for print a single character
  *             on standard output.
