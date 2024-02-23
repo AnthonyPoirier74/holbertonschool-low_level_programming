@@ -1,12 +1,11 @@
 #include "main.h"
-#include <unistd.h>
 /**
-* main - Entry point of the program
+* main - Entry point of the program.
 *
 * Return; Always 0 (Success)
 */
 int main(void)
 {
-	print_alphabet();
+	print_alphabet_x10();
 	return (0);
 }
