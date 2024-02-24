@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * times_table - Prints the multiplication table from 0 to 9.
  */
@@ -7,7 +6,7 @@ void times_table(void)
 {
 	int num;
 	int mult;
-	int prod;
+	int result;
 
 	for (num = 0; num <= 9; num++)
 	{
@@ -18,14 +17,14 @@ void times_table(void)
 			_putchar(',');
 			_putchar(' ');
 
-			prod = num * mult;
+			result = num * mult;
 
-			if (prod <= 9)
+			if (result <= 9)
 				_putchar(' ');
 			else
-				_putchar((prod / 10) + '0');
+				_putchar((result / 10) + '0');
 
-			_putchar((prod % 10) + '0');
+			_putchar((result % 10) + '0');
 		}
 		_putchar('\n');
 	}
