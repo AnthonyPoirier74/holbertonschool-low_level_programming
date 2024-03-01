@@ -14,7 +14,7 @@ void rev_string(char *s)
 
 	while (s[len] != '\0')
 	{
-		printf("%s", len);
+		printf("%c", len);
 		len++;
 	}
 	len--;
@@ -25,6 +25,6 @@ void rev_string(char *s)
 
 		s[len - i] = firstChar;
 		s[i] = lastChar;
-		printf("%s", i);
+		printf("%c", i);
 	}
 }
