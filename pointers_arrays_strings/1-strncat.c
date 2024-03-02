@@ -5,7 +5,8 @@
  * @dest: The destination string to which src is concatenated.
  * @src: The source string that is concatenated to dest.
  * @n: The maximum number of characters to concatenate from src.
- * Return : Value of @dest.
+ *
+ * Return: Value of @dest.
  */
 char *_strncat(char *dest, char *src, int n)
 {
