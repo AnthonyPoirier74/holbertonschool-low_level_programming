@@ -8,31 +8,23 @@
  */
 char *leet(char *s)
 {
-	char *convers = s;
+	char original[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
+	char leet[] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
+	char *temp = s;
+	int i;
 
-	while (*convers)
+	while (*s != '\0')
 	{
-		if (*convers == 'a' || *convers == 'A')
+		for (i = 0; i < 10; i++)
 		{
-			*convers = '4';
+			if (*s == original[i])
+			{
+				*s = leet[i];
+				break;
+			}
 		}
-		else if (*convers == 'e' || *convers == 'E')
-		{
-			*convers = '3';
-		}
-		else if (*convers == 'o' || *convers == 'O')
-		{
-			*convers = '0';
-		}
-		else if (*convers == 't' || *convers == 'T')
-		{
-			*convers = '7';
-		}
-		else if (*convers == 'l' || *convers == 'L')
-		{
-			*convers = '1';
-		}
-		convers++;
+		s++;
 	}
-	return (s);
+
+	return (temp);
 }
