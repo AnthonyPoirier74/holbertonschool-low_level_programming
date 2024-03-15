@@ -1,10 +1,10 @@
 #include "main.h"
 /**
+ * _calloc - a
+ *@nmemb: a
+ *@size: a
  *
- *
- *
- *
- *
+ * Return: a
  *
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
