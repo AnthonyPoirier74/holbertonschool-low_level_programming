@@ -1,9 +1,10 @@
 #include "main.h"
 /**
+ * array_range - a
+ * @min: a
+ * @max: a
  *
- *
- *
- *
+ * Return: a
  */
 int *array_range(int min, int max)
 {
